@@ -1,4 +1,5 @@
 const fs = require('fs');
+
 function read() {
   return fs.readFileSync('./puzzles.txt', 'utf-8');
 }
